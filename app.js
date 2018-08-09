@@ -98,6 +98,7 @@ function editar(id, nombre, apellido, fecha) {
             .then(function () {
 
                 console.log("Document successfully updated!");
+                //limpiar los campos despues de editar
                 document.getElementById('nombre').value = '';
                 document.getElementById('apellido').value = '';
                 document.getElementById('fecha').value = '';
